@@ -16,6 +16,10 @@
 
   color: $accent-dark-grey;
 
+  &:active .logo-htmlacademy__text {
+    opacity: 0.3;
+  }
+
   &::after {
     @include pseudo-element;
     top: -4px;
